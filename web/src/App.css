@@ -1,3 +1,46 @@
-body{
-  background-color: aqua;
+body {
+  background-color: white;
+}
+.repo-table {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+  background-color: white;
+}
+.repo-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding-left: 50px;
+  margin: 5px;
+  border: 1px solid;
+}
+.item-name {
+  width: 200px;
+}
+.item-desc {
+  width: 200px;
+}
+.item-lang {
+  width: 200px;
+  cursor: pointer;
+}
+.item-forks {
+  width: 200px;
+}
+.item-author {
+  width: 200px;
+}
+.item-commit-date {
+  width: 200px;
+}
+.item-message {
+  width: 500px;
+}
+.error {
+  margin: 10px;
+}
+.markDown {
+  margin: 10px;
 }
