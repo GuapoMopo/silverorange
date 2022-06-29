@@ -9,10 +9,10 @@ export function App() {
     try {
       const data = await fetch('http://localhost:4000/repos', {});
       const repoData = await data.json();
-      repoData.forEach((cur: any) => {
-        console.log(cur.id);
-        return 0;
-      });
+      // repoData.forEach((cur: any) => {
+      //   console.log(cur.id);
+      //   return 0;
+      // });
       setRepos(repoData);
       setLoading(false);
     } catch (err) {
